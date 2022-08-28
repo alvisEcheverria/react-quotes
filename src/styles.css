@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+*, 
+*::after, 
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+/***************************************** CONTAINER QUOTEBOX COMPONENT ******************************************/
+
+.styles-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***************************************** CARD QUOTEBOX ******************************************/
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    width: 65rem;
+    height: 25rem;
+    box-shadow: 5px 5px 14px 2px rgba(0,0,0,0.93);
+}
+
+/***************************************** CONTAINER QUOTES QUOTEBOX ******************************************/
+
+.quotes-container{
+    display: flex;
+    margin: 1rem;
+    line-height: 2.5rem;
+}
+
+.quotes-container i{
+    font-size: 10rem;
+    padding-left: 1rem;
+}
+
+.quotes{
+    padding: 2rem 1rem;
+    text-align:center ;
+    height: 13rem;
+}
+
+/***************************************** AUTHOR ******************************************/
+
+.author{
+    text-align: end;
+    font-style: italic;
+    padding-right: 4rem;
+}
+
+/*****************************************CONTAINER BUTTON COMPONENT ******************************************/
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 4rem 2rem 4rem;
+}
+
+.btn{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: whitesmoke;
+    box-shadow: 3px 3px 14px 2px rgba(0,0,0,0.93);
+}
+
+.btn i{
+    font-size: 2rem;
+}
